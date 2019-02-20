@@ -1,0 +1,44 @@
+html, body {
+    background: url(../img/bgCocora.jpg) center center no-repeat;
+    height: 100%;
+    background-size: cover;
+
+}
+#logo img{
+    padding-top: 50px;
+    max-width:15%;
+    height:auto;
+
+}
+#intro p {
+    padding-top: 60px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    /*font-family: 'Permanent Marker', cursive;*/
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1.5em;
+    font-weight: 900;
+
+}
+
+#counter .countdown {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: 'Major Mono Display', monospace;
+    font-size: 1em;
+    margin: -15px 0 0;
+}
+
+#icons{
+    padding-top: 30px;
+}
+
+#icons li{
+    padding: 15px;
+    color: white;
+}
+
+#icons li:hover{
+    padding: 15px;
+    color: darkolivegreen
+}
