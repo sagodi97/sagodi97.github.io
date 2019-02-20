@@ -4,6 +4,16 @@ html, body {
     background-size: cover;
 
 }
+
+@media(min-width:321px)
+    and (max-width:568px){
+
+        html, body{
+            background-size: auto;
+        }
+    }
+
+
 #logo img{
     padding-top: 50px;
     max-width:15%;
@@ -33,12 +43,44 @@ html, body {
     padding-top: 30px;
 }
 
-#icons li{
+#icons li .twitter{
     padding: 15px;
     color: white;
+    position: relative;
+    bottom: 0;
+    transition: all 200ms ease-in-out;
+    
 }
 
-#icons li:hover{
+#icons li .github{
     padding: 15px;
-    color: darkolivegreen
+    color: white;
+    position: relative;
+    bottom: 0;
+    transition: all 200ms ease-in-out;
+    
+}
+
+#icons li .instagram{
+    padding: 15px;
+    color: white;
+    position: relative;
+    bottom: 0;
+    transition: all 200ms ease-in-out;
+    
+}
+
+#icons li .twitter:hover{
+    bottom: 10px;
+    color: #00acee;
+}
+
+#icons li .github:hover{
+    bottom: 10px;
+    color: #bd2c00;
+}
+
+#icons li .instagram:hover{
+    bottom: 10px;
+    color: #517fa6;
 }
